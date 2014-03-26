@@ -17,8 +17,8 @@
 /////////////////////////////
 // i18n plugins
 /////////////////////////////
-grails.plugins.localeConfiguration.supportedLocales = [Locale.GERMAN, Locale.ENGLISH]
-grails.plugins.localeConfiguration.defaultLocale = Locale.ENGLISH
+grails.plugins.localeConfiguration.supportedLocales = [Locale.GERMAN, Locale.US, Locale.forLanguageTag("es")]
+grails.plugins.localeConfiguration.defaultLocale = Locale.US
 // see also: http://docs.oracle.com/javase/7/docs/api/java/util/Locale.html
 
 /////////////////////////////

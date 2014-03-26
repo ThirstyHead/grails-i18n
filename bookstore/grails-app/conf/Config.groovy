@@ -17,9 +17,15 @@
 /////////////////////////////
 // i18n plugins
 /////////////////////////////
+
+// http://grails.org/plugin/locale-configuration
 grails.plugins.localeConfiguration.supportedLocales = [Locale.GERMAN, Locale.US, Locale.forLanguageTag("es")]
 grails.plugins.localeConfiguration.defaultLocale = Locale.US
-// see also: http://docs.oracle.com/javase/7/docs/api/java/util/Locale.html
+
+// http://grails.org/plugin/i18n-fields
+i18nFields {
+    locales = ['en_US', 'es_ES']
+}
 
 /////////////////////////////
 

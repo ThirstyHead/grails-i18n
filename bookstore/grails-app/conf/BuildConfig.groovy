@@ -84,5 +84,6 @@ grails.project.dependency.resolution = {
         /////////////////////////////
         compile ":lang-selector:0.3"
         compile ":locale-configuration:1.0"
+        compile ":i18n-fields:0.8.1"
     }
 }

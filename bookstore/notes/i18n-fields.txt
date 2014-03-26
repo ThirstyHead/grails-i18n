@@ -1,0 +1,29 @@
+i18n-fields.txt
+2014-03-26
+shd
+
+
+Error 2014-03-26 17:48:21,430 [Thread-8] ERROR compiler.GrailsProjectWatcher  - Compilation Error: startup failed:
+/Users/scott/code/local/grails-i18n/bookstore/grails-app/domain/bookstore/Book.groovy: -1: Repetitive method name/signature for method 'java.lang.String getTitle_en_US()' in class 'bookstore.Book'.
+ @ line -1, column -1.
+/Users/scott/code/local/grails-i18n/bookstore/grails-app/domain/bookstore/Book.groovy: -1: Repetitive method name/signature for method 'void setTitle_en_US(java.lang.String)' in class 'bookstore.Book'.
+ @ line -1, column -1.
+/Users/scott/code/local/grails-i18n/bookstore/grails-app/domain/bookstore/Book.groovy: -1: Repetitive method name/signature for method 'java.lang.String getTitle_es_ES()' in class 'bookstore.Book'.
+ @ line -1, column -1.
+/Users/scott/code/local/grails-i18n/bookstore/grails-app/domain/bookstore/Book.groovy: -1: Repetitive method name/signature for method 'void setTitle_es_ES(java.lang.String)' in class 'bookstore.Book'.
+ @ line -1, column -1.
+/Users/scott/code/local/grails-i18n/bookstore/grails-app/domain/bookstore/Book.groovy: -1: Repetitive method name/signature for method 'java.lang.String getTitle_en_US()' in class 'bookstore.Book'.
+ @ line -1, column -1.
+/Users/scott/code/local/grails-i18n/bookstore/grails-app/domain/bookstore/Book.groovy: -1: Repetitive method name/signature for method 'void setTitle_en_US(java.lang.String)' in class 'bookstore.Book'.
+ @ line -1, column -1.
+/Users/scott/code/local/grails-i18n/bookstore/grails-app/domain/bookstore/Book.groovy: -1: Repetitive method name/signature for method 'java.lang.String getTitle_es_ES()' in class 'bookstore.Book'.
+ @ line -1, column -1.
+/Users/scott/code/local/grails-i18n/bookstore/grails-app/domain/bookstore/Book.groovy: -1: Repetitive method name/signature for method 'void setTitle_es_ES(java.lang.String)' in class 'bookstore.Book'.
+ @ line -1, column -1.
+8 errors
+
+
+
+
+http://stackoverflow.com/questions/22320759/repetitive-method-name-signature-for-method-compilation-error-when-using-i18nfi
+

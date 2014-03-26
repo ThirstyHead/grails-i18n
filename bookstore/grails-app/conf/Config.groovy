@@ -11,6 +11,24 @@
 //    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
 // }
 
+
+
+
+/////////////////////////////
+// i18n plugins
+/////////////////////////////
+grails.plugins.localeConfiguration.supportedLocales = [Locale.GERMAN, Locale.ENGLISH]
+grails.plugins.localeConfiguration.defaultLocale = Locale.ENGLISH
+// see also: http://docs.oracle.com/javase/7/docs/api/java/util/Locale.html
+
+/////////////////////////////
+
+
+
+
+
+
+
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 
 // The ACCEPT header will not be used for content negotiation for user agents containing the following strings (defaults to the 4 major rendering engines)

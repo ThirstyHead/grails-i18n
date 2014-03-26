@@ -83,5 +83,6 @@ grails.project.dependency.resolution = {
         // i18n plugins
         /////////////////////////////
         compile ":lang-selector:0.3"
+        compile ":locale-configuration:1.0"
     }
 }

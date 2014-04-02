@@ -41,6 +41,10 @@
     </div>
 
     <hr />
+  
+    <g:link controller="magazine" action="index">View Magazines</g:link>
+
+    <hr />    
 
     <div>
       <g:link controller="locale" action="locales">View all static java.util.Locale locales</g:link>

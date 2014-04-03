@@ -10,4 +10,8 @@ class MagazineFields {
     parentId()
     description()
   }
+
+  String toString(){
+    return "[id:$id] parentId:$parentId $locale: $description"
+  }
 }
